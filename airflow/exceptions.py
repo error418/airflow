@@ -375,7 +375,7 @@ class AirflowProviderDeprecationWarning(DeprecationWarning):
 
 
 class DeserializingResultError(ValueError):
-    """ Raised when an error is encountered while a pickling library deserializes a pickle file"""
+    """Raised when an error is encountered while a pickling library deserializes a pickle file."""
 
     def __str__(self):
         return (
